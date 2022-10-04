@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
-const token = "5699659062:AAG3Ti_cho5GSOevvhroD2hgQbXMaLKBRhQ";
+const token = "5699659062:AAHLPjsgDKY1K9QZeTtYWxQ6rhx_MOEOMTU";
 const webAppUrl = "https://inspiring-rolypoly-c9cc1b.netlify.app/";
 
 const bot = new TelegramBot(token, {polling: true});
